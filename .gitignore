@@ -1,0 +1,61 @@
+# ---------------------
+# Core WordPress
+# ---------------------
+wp-admin/
+wp-includes/
+license.txt
+readme.html
+
+# ---------------------
+# Environment-specific
+# ---------------------
+*.log
+*.sql
+*.sqlite
+*.env
+.env.*
+.DS_Store
+Thumbs.db
+node_modules/
+vendor/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ---------------------
+# Local by Flywheel specific
+# ---------------------
+app/sql/
+app/logs/
+local-settings.php
+
+# ---------------------
+# Ignore uploads/media
+# ---------------------
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+
+# ---------------------
+# Ignore all plugins and themes except my custom ones
+# ---------------------
+
+# wp-content/plugins/*
+# !wp-content/plugins/my-custom-plugin/
+
+# wp-content/themes/*
+# !wp-content/themes/my-custom-theme/
+
+# ---------------------
+# OS Junk
+# ---------------------
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ---------------------
+# Git itself
+# ---------------------
+.git
+.gitattributes
