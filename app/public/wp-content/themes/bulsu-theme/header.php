@@ -4,28 +4,24 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <header class="site-header">
-      <div class="container">
-        <h1 class="school-logo-text float-left">
-          <a href="#"><strong>BULSU</strong> Community</a>
+    <header id="header">
+      <div id="header_bar">
+        <h1 id="header_title">
+          <a href="#">
+            <strong>BULSU</strong> COMMUNITY
+          </a>
         </h1>
-        <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
-        <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
-        <div class="site-header__menu group">
-          <nav class="main-navigation">
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Programs</a></li>
-              <li><a href="#">Events</a></li>
-              <li><a href="#">Campuses</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-          </nav>
-          <div class="site-header__util">
-            <a href="#" class="btn btn--small btn--red float-left push-right" style="color: gold; font-weight: bolder">Login</a>
-            <a href="#" class="btn btn--small btn--gold float-left" style="color: red; font-weight: bolder">Sign Up</a>
-            <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
+        <nav id="header_nav">
+          <ul>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Campus Life</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <div>
+            <a href="#" id="header_in">Login / Sign Up</a>
           </div>
-        </div>
+        </nav>
       </div>
     </header>
