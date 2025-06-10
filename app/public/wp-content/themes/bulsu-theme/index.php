@@ -13,18 +13,24 @@
             <hr>
             <div>
                 <p>OCT 15</p>
-                <p>Fall Open House</p>
-                <p>Tour our campus and meet faculty members</p>
+                <div>
+                    <p><strong>Fall Open House</strong></p>
+                    <p>Tour our campus and meet faculty members</p>
+                </div>
             </div>
             <div>
                 <p>OCT 23</p>
-                <p>Research Symposium</p>
-                <p>Showcasing groundbreaking student research</p>
+                <div>
+                    <p><strong>Research Symposium</strong></p>
+                    <p>Showcasing groundbreaking student research</p>
+                </div>
             </div>
             <div>
                 <p>NOV 5</p>
-                <p>Alumni Networking</p>
-                <p>Connect with successful graduates</p>
+                <div>
+                    <p><strong>Alumni Networking</strong></p>
+                    <p>Connect with successful graduates</p>
+                </div>
             </div>
             <a href="#">View All Events</a>
         </div>
